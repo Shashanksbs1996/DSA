@@ -2,10 +2,9 @@
 class Solution:
     def ReverseSort(self, x): 
        # code here
-       x = sorted(x)
-       s = x[::-1]
+       x= sorted(x)
+       s=x[::-1]
        return "".join(map(str,s))
-        
 
 #{ 
 #  Driver Code Starts
