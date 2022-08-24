@@ -10,7 +10,8 @@ class Solution(object):
         if head.val == val:
             return self.removeElements(head.next, val)
         else:
-            head.next = self.removeElements(head.next, val)
+          next_el=  self.removeElements(head.next, val)
+          head.next=next_el
         return head
     
        
